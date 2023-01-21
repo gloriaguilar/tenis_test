@@ -1,0 +1,123 @@
+.historia-container{
+    background-color: #f3f4f8;
+    height: 45vh;
+    display: flex;
+    margin: auto;
+    padding: 60px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.l-container{
+    display: flex;
+}
+.span-container{
+    margin: 5em 1em;
+}
+.span-subtitle{
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.titles-accesories{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+}
+
+.description-accesories{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 11%;
+}
+
+.bottom-container > button{
+    padding: 20px;
+    font-size: 25px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-right: 15%
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .bottom-container > button{
+        padding: 30px 130px;
+        font-size: 30px;
+
+    }
+    .l-container{
+        justify-content: center;
+    }
+    .description-accesories{
+        align-self: center
+    }
+    .bottom-container {
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .titles-accesories{
+        font-size: 45px;
+    }
+    .bottom-container{
+        margin-left: 11%;
+    }
+    .bottom-container>button{
+        padding: 8px 45px;
+        font-size: 25px;
+    }
+    .l-container{
+        justify-content: flex-start;
+    }
+    .historia-container{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .l-container{
+        flex-direction: column;
+    }
+
+    .span-container{
+        margin: 0;
+    }
+
+    .titles-accesories{
+        font-size: 35px;
+    }
+
+    .bottom-container, .description-accesories{
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .bottom-container>button {
+        padding: 2px 30px;
+        font-size: 20px;
+    }
+    .description-accesories {
+        font-size: 15px;
+    }
+    .titles-accesories {
+        font-size: 25px;
+    }
+}

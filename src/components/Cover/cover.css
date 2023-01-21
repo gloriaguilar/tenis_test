@@ -1,0 +1,62 @@
+.body-cover{
+    background-image: url('../../resources/group.png');
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-cover{
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    color: greenyellow;
+    font-weight: 500;
+}
+
+.btn-about {
+    font-size: 30px;
+    padding: 30px 50px;
+    border-radius: 50px;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .text-cover{
+        font-size: 45px;
+    }
+
+    .btn-about{
+        font-size: 24px;
+        padding: 15px 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body-cover{
+        height:50vh;
+        padding: 10px;
+    }
+
+    .text-cover{
+        top: 20%;
+        font-size: 25px;
+    }
+
+    .btn-about{
+        font-size: 17px;
+        padding: 5px 16px;
+    }
+}

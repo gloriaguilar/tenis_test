@@ -1,0 +1,19 @@
+.cover{
+    background-image: url('../../resources/tennis.jpg');
+    height:20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .cover{
+        height:40vh;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .cover{
+        height:80vh;
+    }
+}
